@@ -18,7 +18,7 @@ project "Sndfile"
 	includedirs
 	{
 		"include",
-		"src"
+		"src/**.h"
 	}
 
 	filter "system:windows"
