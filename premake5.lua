@@ -18,7 +18,8 @@ project "Sndfile"
 	includedirs
 	{
 		"include",
-		"src/**.h"
+		"src",
+		"src/GSM610"
 	}
 
 	filter "system:windows"
