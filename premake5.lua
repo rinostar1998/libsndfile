@@ -11,7 +11,8 @@ project "Sndfile"
 	{
 		"src/**.h",
 		"src/**.c",
-		"include/**.h"
+		"include/**.h",
+		"src/GSM610/config.h"
 	}
 
 	includedirs
